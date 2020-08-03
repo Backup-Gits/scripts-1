@@ -1,3 +1,5 @@
-# Pull the latest version of proton-clang
-cd /$pwd/proton-clang
+# Pull the latest avaiable proton-clang
+cd ..
+cd proton-clang
 git pull
+cd ..
