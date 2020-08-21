@@ -12,7 +12,7 @@ rm -rf ktweakm
 unzip ktweakm.zip -d ./ktweakm
 cd ktweakm
 lsd=$(ls -d *|head -n 1)
-rm -rf /home/lacia/keso/AnyKernel3/ktweakm
-cp -r $(pwd)/$lsd /home/lacia/keso/AnyKernel3/ktweakm
+rm -rf /home/lacia/keso/AnyKernel3/ktweak
+cp -r $(pwd)/$lsd /home/lacia/keso/AnyKernel3/ktweak
 cd ..
 echo $lsd > ktweak.version
